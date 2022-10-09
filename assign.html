@@ -1,0 +1,105 @@
+<html>
+    <body bgcolor=#A9DFBF>
+        <img src="https://play-lh.googleusercontent.com/5OUK2rqyCA1rVe_NHjXZiKJ2HficO5PC7fmwP62LHusOc6iu0lYVhYb1ZkBaOg5B9_KP=w480-h960" alt="pesu logo" align="right" width="100" height="100">
+        <table border="1px solid black" bgcolor=#F4D03F style="margin-bottom:50px">
+           <caption><strong>Student Information</strong></caption>
+           <tr>
+            <th width="200px">SRN</th>
+            <th width="150px">Subject</th>
+            <th width="100px">Marks</th>
+           </tr>
+           <tr>
+            <td rowspan="5">SRN123456</td>
+           </tr>
+           <tr>
+            <td>Web</td>
+            <td>75</td>>
+           </tr>
+           <tr>
+            <td>DAA</td>
+            <td>70</td>
+           </tr>
+           <tr>
+            <td>C++</td>
+            <td>70</td>
+           </tr>
+           <tr>
+            <td>DMS</td>
+            <td>80</td>
+           </tr>
+           <tr>
+            <td colspan="3">Result-Pass/Fail</td>
+           </tr>
+           </table>
+           <caption><b>Re-evaluation Request form</b></caption>
+           <table border="1px solid black"> 
+          <tr>
+            <td>
+            First Name:</td>
+            <td>
+            <input textarea name="name" placeholder="First Name" required/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            SRN:
+        </td>
+        <td>
+            <input textarea name="srn" placeholder="SRN"/>
+        </td>
+        </tr>
+        <tr>
+            <td>
+            Gender:
+            </td>
+            <td>
+            <input type="radio" name="male" value="Male"/>Male <input type="radio" name="female" value="female"/>Female
+        </td>
+    </tr>
+        <tr>
+            <td>
+            Email Id:
+            </td>
+            <td>
+            <input type="mail" name="uemail" placeholder="example@gmail.com"/>
+           </td>
+        </tr>
+        <tr>
+            <td>Mobile:</td>
+            <td><input type="tele"></td>
+        </tr>
+        <tr>
+            <td>Subject:</td>
+            <td><select>
+                <option value="web">Web</option>
+                <option value="daa">DAA</option>
+                <option value="c++">C++</option>
+                <option value="dms">DMS</option>
+            </select>
+        </tr>
+        <tr>
+            <td>Date of Request:</td>
+            <td><input= type="date" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox"/>I have verified above information are correct</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="Submit" onclick="show_alert" required/>
+                <input type="reset" name="reset"/>
+            </td>
+        </tr>
+        <div class="show_alert">
+            <span class="Submit" onclick="this.parentElement.style.display='none';">&times;</span> 
+            Please fill out this field
+          </div>
+        </table>
+           <p id="k">web</p>
+           <script>
+            document.getElementById("k").innerHTML="welcome"
+           </script>
+           
+           
+    </body>
+</html>
